@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-bar {
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.nav-bar img {
+    height: 20px;
+}
+
+.nav-bar li {
+    font-size: 12px;
+    list-style: none;
+}
+
+.nav-bar ul {
+    width: 950px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* First Section  */
+
+.first-section {
+    color: white;
+    height: 100vh;
+    background-image: url("https://oasis.opstatics.com/content/dam/oasis/page/2022/new-homepage/in/homepage/hero-banner/frankfurt-monitor-x27/Launch_Pad.jpg.thumb.webp");
+}
+
+.first-section div {
+    height: 100vh;
+    width: 50%;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.first-section div .first-span {
+    font-size: 20px;
+    margin-right: 90px;
+}
+
+.first-section div .first-span p {
+    margin-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.first-section div .second-span h3 {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.first-section div .second-span p {
+    color: gray;
+    font-size: 13px;
+}
+
+.first-section div .second-span .first-first-span button {
+    margin-top: 20px;
+    height: 35px;
+    width: 180px;
+}
+
+.first-section div .second-span .first-first-span button:last-child {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+/* Second Section  */
+
+.second-section {
+    width: 100%;
+    padding: 30px 20px;
+    height: 85vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-section .first-div {
+    padding-left: 40px;
+    width: 40%;
+    /* height: 75vh; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.second-section .first-div .first-span h1 {
+    font-weight: 200;
+    font-size: 35px;
+}
+
+
+.second-section .first-div .second-span p {
+    font-size: 13px;
+}
+
+.second-section .first-div .second-span h3 {
+    font-weight: 600;
+}
+
+.second-section .first-div .second-span button {
+    margin-bottom: 60px;
+    margin-top: 10px;
+    height: 30px;
+    width: 130px;
+}
+
+.second-section .first-div .second-span span button :first-child {
+    background-color: black;
+    color: white;
+}
+
+
+.second-section .second-div {
+    width: 60%;
+}
+
+.second-section .second-div img {
+    height: 280px;
+    transition: all ease-in-out 0.3s;
+}
+
+.second-section .second-div img:hover {
+    transform: scale(110%);
+}
+
+
+/* third section 2 div section */
+
+.third-section {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.third-section .first-div {
+    height: 60vh;
+    background-color: #f8f8f8;
+    padding: 20px 20px;
+    width: 48%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.third-section .first-div .div-first {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.third-section .first-div .div-first .first-span p {
+    font: 10px;
+}
+
+.third-section .first-div .div-first .first-span h1 {
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.third-section .first-div .div-first .second-span p {
+    font-size: 12px;
+}
+
+.third-section .first-div .div-first .second-span h3 {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.third-section .first-div .div-first .third-span button {
+    margin-top: 10px;
+    height: 30px;
+    width: 60px;
+}
+
+.third-section .first-div .div-first .third-span button:last-child {
+    width: 80px;
+}
+
+.third-section .first-div .div-second img {
+    height: 250px;
+}
+
+/* Para Setion  */
+
+.para-section {
+    margin-top: 70px;
+    height: 10vh;
+
+}
+
+.para-section p {
+    margin-left: 40px;
+    border-bottom: 1px solid lightgray;
+    width: 930px;
+}
+
+/* Menu Section */
+
+.menu-section ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.menu-section li {
+    list-style: none;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    font-size: 13px;
+}
+
+
+/* 4 Div Section  */
+
+.fourth-section {
+    padding: 20px 40px;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fourth-section .first-div {
+    width: 24%;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.fourth-section .first-div .first-span img {
+    background-color: lightgray;
+    height: 180px;
+}
+.fourth-section .first-div .first-span img:hover{
+    transform: scale(110%);   
+}
+
+
+.fourth-section .first-div .second-span h2 {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.fourth-section .first-div .second-span h5 {
+    font-size: 10px;
+    margin-bottom: 20px;
+    color: red;
+}
+
+.fourth-section .first-div .second-span p {
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.fourth-section .first-div .second-span button {
+    height: 39px;
+    padding: 5px 10px;
+    background-color: white;
+    width: 170px;
+    transition: all ease-in-out 0.3s;
+    margin-bottom: 18px;
+    border: none;
+}
+.fourth-section .first-div .second-span button:hover{
+    background-color: black;
+    color: white;
+}
+
+.fourth-section .first-div .second-span button p:hover {
+    display: none;
+}
+
+
+/* production section   */
+
+.product-section{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}
+
+/* Whats new section   */
+
+.new{
+    height: 20vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.new p{
+    margin-top: 50px;
+    color: white;
+    margin-left: 40px;
+    border-bottom: 1px solid lightgray;
+    width: 930px;   
+}
+
+
+/* 9th Anniversary Section   */
+
+.anniversary-section{
+    background-color: black;
+    padding: 40px 30px;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.anniversary-section .first-div{
+    height: 80vh;
+    width: 60%;
+}
+.anniversary-section .first-div img{
+    height: 350px;
+}
+.anniversary-section .second-div{
+    /* padding: 20px 50px; */
+    width: 30%;
+    height:80vh ;
+    background-color:black;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.anniversary-section .second-div .first-span{
+    margin-right:60px ;
+}
+.anniversary-section .second-div .first-span h1{
+    font-weight: 300;
+    font-size: 25px;
+    margin-right: 20px;
+}
+.anniversary-section .second-div .second-span{
+    margin-right:100px ;
+    margin-bottom: 40px;
+}
+.anniversary-section .second-div .second-span p{
+    margin-bottom: 10px;
+    font-size: 11px;
+}
+.anniversary-section .second-div .second-span a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    border-bottom: 1px solid white;
+}
+
+.anniversary-section .second-div .second-span p {
+    margin-right: 20px;
+}
+
+/* Make the smarter section    */
+
+.smarter-section{
+    padding: 30px 40px;
+    background-color: black;
+    color: white;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.smarter-section .first-div{
+    width: 40%;
+    height: 80vh;
+    margin-bottom: 40px;
+    padding: 60px 1px;
+    display: flex;
+    align-items: flex-start;
+    justify-content:space-between ;
+    flex-direction: column;
+}
+.smarter-section .first-div .first-span p{
+    margin-bottom: 30px;
+}
+.smarter-section .first-div .second-span a{
+    margin-bottom: 150px;
+}
+
+.smarter-section .second-div {
+    height:90vh ;
+    width: 60%;
+}
+.smarter-section .second-div img{
+    padding: 40px 0px;
+    height: 370px;
+}
+.smarter-section .first-div a{
+    color: white;
+    font-size: 13px;
+}
+
+.smarter-section .first-div h1{
+    font-size: 33px;
+    font-weight: 300;
+    /* margin-bottom: 130px; */
+}
+
+/* Empower section  */
+
+.empower-section{
+    background-color: black;
+    color: white;
+    padding: 30px 40px;
+    padding-right: 130px;
+}
+.empower-section h1{
+    font-weight: 100;
+}
+
+
+
+
+
+
+
